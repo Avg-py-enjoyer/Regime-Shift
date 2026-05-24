@@ -1,0 +1,20 @@
+assets:
+  - ^NSEI
+  - ^NSEBANK
+  - GOLDBEES.NS
+  - LIQUIDBEES.NS
+
+benchmark: ^NSEI
+
+start_date: 2010-01-01
+end_date: 2025-01-01
+
+n_regimes: 4
+
+risk_aversion: 0.5
+
+transaction_cost: 0.002
+
+train_window: 1000
+
+retrain_frequency: 21
